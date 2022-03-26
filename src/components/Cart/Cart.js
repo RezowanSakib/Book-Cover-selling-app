@@ -3,31 +3,22 @@ import Item from "../CartItem/Item";
 
 const Cart = ({ cart }) => {
   let selected = [];
-  let name;
-  let price;
-  let picture;
+  
+
   for (const product of cart) {
     selected = [...selected, product];
-    name = product.name;
-    price = product.price;
-    picture = product.picture;
+  }
+  const selectedId=()=>{
+    let randomId = Math.trunc(Math.random() * 6000 + 10);
   }
 
   return (
-    <div className=" bg-white">
-      <p>Selected Items {cart.length} </p>
+    <div className=" bg-white rounded ">
+      <h3>Selected Items {cart.length}</h3>
       {selected.map((item) => (
-        <Item item={item} ></Item>
-        
-        // <Item key={item.id}></Item>
+        <Item item={item} key={item.id}></Item>
       ))}
-      {/* <div className="row">
-        <div className="col-lg-6 col-md-6 my-3"></div>
-        
-      </div>
-
-      
-       */}
+      <button className="bg-secondary rounded mb-2 text-white">Choose One</button>
     </div>
   );
 };
