@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Item from "../CartItem/Item";
 
 const Cart = ({ cart }) => {
@@ -11,7 +11,6 @@ const Cart = ({ cart }) => {
   const luckyItem = () => {
     const item = selected[Math.floor(Math.random() * selected.length)];
     setLucky(item);
-    
   };
 
   return (
@@ -20,9 +19,7 @@ const Cart = ({ cart }) => {
       {selected.map((item) => (
         <Item item={item} key={item.id}></Item>
       ))}
-      {
-        <h1> {lucky.name}</h1>
-      }
+      {<h1> {lucky.name}</h1>}
       <button
         onClick={luckyItem}
         className="bg-secondary rounded mb-2 text-white mx-2"
