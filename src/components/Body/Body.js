@@ -15,7 +15,7 @@ const Body = () => {
     setCart(newCart);
   };
   return (
-    <div className="row position-relative">
+    <div className="row ">
       <div className="col-8">
         <div className="row">
           {products.map((product) => (
@@ -27,8 +27,8 @@ const Body = () => {
           ))}
         </div>
       </div>
-      <div className="col-4 position-fixed top-25 end-0">
-       <Cart cart={cart}></Cart>
+      <div className="col-4">
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
