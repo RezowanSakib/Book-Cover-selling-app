@@ -8,9 +8,7 @@ const Cart = ({ cart }) => {
   for (const product of cart) {
     selected = [...selected, product];
   }
-  const selectedId=()=>{
-    let randomId = Math.trunc(Math.random() * 6000 + 10);
-  }
+ 
 
   return (
     <div className=" bg-white rounded ">
