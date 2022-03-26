@@ -19,25 +19,25 @@
   },
   {
     "id": "6237",
-    "picture": "https://www.freepik.com/free-psd/vintage-book-mock-up_4060996.htm?query=story%20book%20cover",
+    "picture": "yellow-vintage.jpg",
     "price": 28,
     "name": "Yellow-vintage Book"
   },
   {
     "id": "6238",
-    "picture": "https://www.freepik.com/free-psd/ringed-notebook-mockup-template_10313977.htm?query=story%20book%20cover",
+    "picture": "black-notebook.jpg",
     "price": 26,
     "name": "Black NoteBook"
   },
   {
     "id": "6239",
-    "picture": "https://www.freepik.com/free-psd/hardcover-notebook-diary-mockup_21978233.htm?query=story%20book%20cover",
+    "picture": "green-vintage.jpg",
     "price": 31,
     "name": "Green NoteBook"
   },
   {
     "id": "6240",
-    "picture": "https://www.freepik.com/free-vector/abstract-elegant-winter-book-cover_11734660.htm#query=islamic%20book%20cover&position=23&from_view=search",
+    "picture": "different-winter.jpg",
     "price": 21,
     "name": "Different Winter"
   },
@@ -49,13 +49,13 @@
   },
   {
     "id": "6242",
-    "picture": "https://www.freepik.com/free-vector/abstract-child-like-education-book-cover_12557479.htm#query=kids%20book&position=8&from_view=search",
+    "picture": "learn.jpg",
     "price": 27,
     "name": "Learn & Play"
   },
   {
     "id": "6243",
-    "picture": "https://www.freepik.com/free-vector/abstract-colorful-design-book-cover_12982350.htm#query=kids%20book&position=9&from_view=search",
+    "picture": "design.jpg",
     "price": 36,
     "name": "Designing Book"
   },
